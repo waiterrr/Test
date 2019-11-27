@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+	#pic img{ border:1px solid #ccc; padding:1px; margin:3px;}
+</style>
+
+</head>
+
+<body>
+<div id="pic">
+	<!-- <img src="../img/more/1.jpg" alt="tupian"> -->
+</div>
+<script type="text/javascript">
+	var hdfiles = "";
+	for (i = 1; i <= 8; i++) {
+		hdfiles = hdfiles+"<img src='./img/more/"+i+".jpg'>";
+		}
+		
+		document.getElementById("pic").innerHTML=hdfiles;
+
+</script>
+</body>
+</html>
+

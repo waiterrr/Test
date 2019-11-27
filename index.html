@@ -17,8 +17,10 @@
 var tbsource = "C:/Users/wyt/Desktop/work/web/MyWork/img/more";//本地文件夹路径
 
 var hdfiles = "";
-
+	
+document.getElementById("pic").innerHTML="<p>1</p>";
 var objFSO =new ActiveXObject('Scripting.FileSystemObject');
+document.getElementById("pic").innerHTML="<p>2</p>";
 
 if(!objFSO.FolderExists(tbsource))
 
